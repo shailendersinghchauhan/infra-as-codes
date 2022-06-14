@@ -34,6 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo $PWD
-          cd infra-as-codes/teams/sre/southindia/dev/vnet
-          ../../../../../scripts/RunTerraform.sh
+          cd teams/sre/southindia/dev/vnet
+          ../../../../scripts/RunTerraform.sh
           echo test, and deploy your project.
