@@ -35,5 +35,6 @@ jobs:
           echo Add other actions to build,
           echo $PWD
           cd teams/sre/southindia/dev/vnet
-          ../../../../scripts/RunTerraform.sh
+          echo $PWD
+          ../../../../../scripts/RunTerraform.sh
           echo test, and deploy your project.
